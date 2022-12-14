@@ -1,5 +1,5 @@
 const button = document.getElementById('bishBoshSubmit');
-button.addEventListener('click', bishBosh())
+button.addEventListener('click', bishBosh)
 
 function bishBosh(){
     let startNumber = document.getElementById("start").value;
