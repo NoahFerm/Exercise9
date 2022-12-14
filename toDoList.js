@@ -1,7 +1,5 @@
-//Doesn't work 
-
-const button = document.getElementById('addToList');
-button.addEventListener('click', addItem)
+const listButton = document.getElementById('addToList');
+listButton.addEventListener('click', addItem)
 
 function addItem(){
     let list = document.getElementById("list");
