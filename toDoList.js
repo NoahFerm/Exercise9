@@ -8,6 +8,6 @@ function addItem(){
     let input = document.getElementById("listInput").value;
     let li = document.createElement("li");
     li.setAttribute('id', input);
-    // li.appendChild(document.createTextNode(input));
-    list.appendChild(input);
+    li.appendChild(document.createTextNode(input));
+    list.appendChild(li);
 }
